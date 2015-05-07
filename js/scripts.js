@@ -1,10 +1,16 @@
 // My Scripts
 
-$(document).ready(function() {
  
-  $("#owl-example").owlCarousel();
+  $("#owl-example").owlCarousel({
+
+  	paginationSped: 400,
+  	autoPlay: true,
+  	singleItem: true
+
+
+  });
  
-});
+
 
 
 
